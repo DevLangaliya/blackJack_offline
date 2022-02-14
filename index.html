@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlackJack</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="design.css">
+</head>
+    <h1>JackBlack</h1>
+        <body id="body" onload="lol()">
+            <br>
+                <div id="rules" style="display: none">
+                    <ol>
+                        <li>The Player places a bet</li>
+                        <li>The cards are then dealt to each player, where if you go over 21, you lose the round and your money.</li>
+                        <li>When you get 2 of the same face value, you will be give an opportunity to split the deck into 2 mini decks.</li>
+                        <li>When splitting the deck, you can change what deck you choose to use for the time being</li>
+                        <li>Your goal is to get as close to 21 without going over to get as much money as possible</li>
+                    </ol>
+                </div>
+            <br>
+                <input type="button" id="return" onclick="goBack()" style="display: none" value="Back">
+                <input type="button" id="showRules" onclick="showRules()" value="How To Play">
+            <br>
+            <br>
+                <input id="empezar" onclick="StartGame()" type="button" value="Start Game">
+            <br>
+                <input id="hit" onclick="takeYourCard(0)" style="display: none" type="button" value="Hit">
+                <input id="hitSplit" onclick="hitSplit(splitted%2)" style="display: none" type="button" value="sHit">
+            <br>
+                <input id="stand" onclick="leaveTotal()" style="display: none" type="button" value="Stand">
+            <br>
+                <input id="deal" onclick="dealCards()" style="display: none" type="button" value="Deal Cards">
+            <br>
+                <input id="startSplit" onclick="split()" style="display: none" type="button" value="Split">
+            <br>
+                <div id="UI" style="display: none">
+                        <p id="cpuHand"></p>
+                        <p id="cpuScore"></p>
+                    <br>
+                    <br>
+                        <p id="UserHand"></p>
+                        <p id="UserScore"></p>
+                    <br>
+                    <br>
+                        <div id="d1">
+                            <p id="tempHand1"></p>
+                            <p id="UserScore1"></p>
+                        </div>
+                    <br>
+                        <div id="d2">
+                            <p id="tempHand2"></p>
+                            <p id="UserScore2"></p>
+                        </div>
+                </div>                        
+            <br>
+                <input id="changeDeck" type="button" value="Change active deck" onclick="userChangeDeck()" style="display: none">
+            <br>                   
+            <br>        
+                <input type="button" onclick="placeBet()" value="Place Bet" id="better" style="display: none">
+            <br>
+                <input type="text" id="enterBet" placeholder="Enter Bet" style="display: none">
+            <br>
+                <p id="betAlerts"></p>
+            <br>      
+                <div id="finance">
+                    <p id="monies"></p>     
+                    <p id="bet"></p> 
+                </div>
+            <br>
+                <p id="alerts"></p>
+    </body>
+</html>

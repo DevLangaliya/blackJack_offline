@@ -1,0 +1,216 @@
+h1{
+    color:black;
+}
+h1:hover{
+    color: white;
+}
+body{
+    /*background-image: url("/images/blackjackBoard.jpg")
+   background-color: rgb(6, 5, 7);
+   */
+    background-image: url("/images/betterbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    
+}
+#UI{
+    font-weight: 900;
+    margin-left: 28.5%;
+    margin-top: -10%;
+    font-size: large;
+    color: white;
+    position: fixed;
+}
+#monies{
+    font-weight:900;
+}
+#bet{
+    font-weight:900;
+}
+#empezar{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#empezar:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#changeDeck{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#changeDeck:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#better{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#better:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#hit{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#hit:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#stand{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#stand:hover{
+    background-color:white;
+    color:brown;    
+    font-weight:bold;
+}
+#hitSplit{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#hitSplit:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#deal{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#deal:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#alerts{
+    font-weight: 900;
+    margin-left: 29%;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    margin-bottom: 2%;
+}
+#monies{
+    color: brown;
+}
+#monies:hover{
+    color: white;
+    font-size: larger;
+}
+#bet{
+    color: brown;
+}
+#bet:hover{
+    color: white;
+    font-size: larger;
+}
+#d1{
+    color: brown;
+}
+#d1:hover{
+    color: white;
+    font-size: larger;
+}
+#d2{
+    color: brown;
+}
+#d2:hover{
+    color: white;
+    font-size: larger;
+}
+#startSplit{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#startSplit:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#rules{
+    font-weight: bold;
+    margin-left: 28.5%;
+    margin-top: auto;
+    font-size: large;
+    color: white;
+    position: fixed;
+}
+#return{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#return:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#showRules{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#showRules:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
+#enterBet::placeholder{
+    color: white;
+    font-weight:lighter;
+    font-size:smaller;
+}
+#enterBet{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+    width: 4rem;
+    position: fixed;
+    
+}
+#betAlerts{
+    color: brown;
+    font-size:large;
+}
+#betAlerts:hover{
+    color: white;
+    font-size: larger;
+}
