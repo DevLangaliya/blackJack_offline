@@ -547,171 +547,171 @@ function showRules(){
     document.getElementById("rules").style.display = "block"
 }
 
-/*
+// 
 
-function insertImages(){ 
-    imgArray[0] = new Image()
-    imgArray[0].src = 'ace_of_diamonds.png'
+// function insertImages(){ 
+//     imgArray[0] = new Image()
+//     imgArray[0].src = 'ace_of_diamonds.png'
 
-    imgArray[1] = new Image()
-    imgArray[1].src = '2_of_diamonds.png'
+//     imgArray[1] = new Image()
+//     imgArray[1].src = '2_of_diamonds.png'
 
-    imgArray[2] = new Image()
-    imgArray[2].src = '3_of_diamonds.png'
+//     imgArray[2] = new Image()
+//     imgArray[2].src = '3_of_diamonds.png'
 
-    imgArray[3] = new Image()
-    imgArray[3].src = '4_of_diamonds.png'
+//     imgArray[3] = new Image()
+//     imgArray[3].src = '4_of_diamonds.png'
 
-    imgArray[4] = new Image()
-    imgArray[4].src = '5_of_diamonds.png'
+//     imgArray[4] = new Image()
+//     imgArray[4].src = '5_of_diamonds.png'
 
-    imgArray[5] = new Image()
-    imgArray[5].src = '6_of_diamonds.png'
+//     imgArray[5] = new Image()
+//     imgArray[5].src = '6_of_diamonds.png'
 
-    imgArray[6] = new Image()
-    imgArray[6].src = '7_of_diamonds.png'
+//     imgArray[6] = new Image()
+//     imgArray[6].src = '7_of_diamonds.png'
 
-    imgArray[7] = new Image()
-    imgArray[7].src = '8_of_diamonds.png'
+//     imgArray[7] = new Image()
+//     imgArray[7].src = '8_of_diamonds.png'
 
-    imgArray[8] = new Image()
-    imgArray[8].src = '9_of_diamonds.png'
+//     imgArray[8] = new Image()
+//     imgArray[8].src = '9_of_diamonds.png'
 
-    imgArray[9] = new Image()
-    imgArray[9].src = '10_of_diamonds.png'
+//     imgArray[9] = new Image()
+//     imgArray[9].src = '10_of_diamonds.png'
 
-    imgArray[10] = new Image()
-    imgArray[10].src = 'jack_of_diamonds2.png'
+//     imgArray[10] = new Image()
+//     imgArray[10].src = 'jack_of_diamonds2.png'
 
-    imgArray[11] = new Image()
-    imgArray[11].src = 'queen_of_diamonds2.png'
+//     imgArray[11] = new Image()
+//     imgArray[11].src = 'queen_of_diamonds2.png'
 
-    imgArray[12] = new Image()
-    imgArray[12].src = 'king_of_diamonds2.png'
+//     imgArray[12] = new Image()
+//     imgArray[12].src = 'king_of_diamonds2.png'
 
-    imgArray[13] = new Image()
-    imgArray[13].src = 'ace_of_clubs.png'
+//     imgArray[13] = new Image()
+//     imgArray[13].src = 'ace_of_clubs.png'
 
-    imgArray[14] = new Image()
-    imgArray[14].src = '2_of_clubs.png'
+//     imgArray[14] = new Image()
+//     imgArray[14].src = '2_of_clubs.png'
 
-    imgArray[15] = new Image()
-    imgArray[15].src = '3_of_clubs.png'
+//     imgArray[15] = new Image()
+//     imgArray[15].src = '3_of_clubs.png'
 
-    imgArray[16] = new Image()
-    imgArray[16].src = '4_of_clubs.png'
+//     imgArray[16] = new Image()
+//     imgArray[16].src = '4_of_clubs.png'
 
-    imgArray[17] = new Image()
-    imgArray[17].src = '5_of_clubs.png'
+//     imgArray[17] = new Image()
+//     imgArray[17].src = '5_of_clubs.png'
 
-    imgArray[18] = new Image()
-    imgArray[18].src = '6_of_clubs.png'
+//     imgArray[18] = new Image()
+//     imgArray[18].src = '6_of_clubs.png'
 
-    imgArray[19] = new Image()
-    imgArray[19].src = '7_of_clubs.png'
+//     imgArray[19] = new Image()
+//     imgArray[19].src = '7_of_clubs.png'
 
-    imgArray[20] = new Image()
-    imgArray[20].src = '8_of_clubs.png'
+//     imgArray[20] = new Image()
+//     imgArray[20].src = '8_of_clubs.png'
 
-    imgArray[21] = new Image()
-    imgArray[21].src = '9_of_clubs.png'
+//     imgArray[21] = new Image()
+//     imgArray[21].src = '9_of_clubs.png'
 
-    imgArray[22] = new Image()
-    imgArray[22].src = '10_of_clubs.png'
+//     imgArray[22] = new Image()
+//     imgArray[22].src = '10_of_clubs.png'
 
-    imgArray[23] = new Image()
-    imgArray[23].src = 'jack_of_clubs2.png'
+//     imgArray[23] = new Image()
+//     imgArray[23].src = 'jack_of_clubs2.png'
 
-    imgArray[24] = new Image()
-    imgArray[24].src = 'queen_of_clubs2.png'
+//     imgArray[24] = new Image()
+//     imgArray[24].src = 'queen_of_clubs2.png'
 
-    imgArray[25] = new Image()
-    imgArray[25].src = 'king_of_clubs2.png'
+//     imgArray[25] = new Image()
+//     imgArray[25].src = 'king_of_clubs2.png'
 
-    imgArray[26] = new Image()
-    imgArray[26].src = 'ace_of_hearts.png'
+//     imgArray[26] = new Image()
+//     imgArray[26].src = 'ace_of_hearts.png'
 
-    imgArray[27] = new Image()
-    imgArray[27].src = '2_of_hearts.png'
+//     imgArray[27] = new Image()
+//     imgArray[27].src = '2_of_hearts.png'
 
-    imgArray[28] = new Image()
-    imgArray[28].src = '3_of_hearts.png'
+//     imgArray[28] = new Image()
+//     imgArray[28].src = '3_of_hearts.png'
 
-    imgArray[29] = new Image()
-    imgArray[29].src = '4_of_hearts.png'
+//     imgArray[29] = new Image()
+//     imgArray[29].src = '4_of_hearts.png'
     
-    imgArray[30] = new Image()
-    imgArray[30].src = '5_of_hearts.png'
+//     imgArray[30] = new Image()
+//     imgArray[30].src = '5_of_hearts.png'
     
-    imgArray[31] = new Image()
-    imgArray[31].src = '6_of_hearts.png'
+//     imgArray[31] = new Image()
+//     imgArray[31].src = '6_of_hearts.png'
 
-    imgArray[32] = new Image()
-    imgArray[32].src = '7_of_hearts.png'
+//     imgArray[32] = new Image()
+//     imgArray[32].src = '7_of_hearts.png'
 
-    imgArray[33] = new Image()
-    imgArray[33].src = '8_of_hearts.png'
+//     imgArray[33] = new Image()
+//     imgArray[33].src = '8_of_hearts.png'
 
-    imgArray[34] = new Image()
-    imgArray[34].src = '9_of_hearts.png'
+//     imgArray[34] = new Image()
+//     imgArray[34].src = '9_of_hearts.png'
 
-    imgArray[35] = new Image()
-    imgArray[35].src = '10_of_hearts.png'
+//     imgArray[35] = new Image()
+//     imgArray[35].src = '10_of_hearts.png'
 
-    imgArray[36] = new Image()
-    imgArray[36].src = 'jack_of_hearts2.png'
+//     imgArray[36] = new Image()
+//     imgArray[36].src = 'jack_of_hearts2.png'
 
-    imgArray[37] = new Image()
-    imgArray[37].src = 'queen_of_hearts2.png'
+//     imgArray[37] = new Image()
+//     imgArray[37].src = 'queen_of_hearts2.png'
 
-    imgArray[38] = new Image()
-    imgArray[38].src = 'king_of_hearts2.png'
+//     imgArray[38] = new Image()
+//     imgArray[38].src = 'king_of_hearts2.png'
 
-    imgArray[39] = new Image()
-    imgArray[39].src = 'ace_of_spades.png'
+//     imgArray[39] = new Image()
+//     imgArray[39].src = 'ace_of_spades.png'
 
-    imgArray[40] = new Image()
-    imgArray[40].src = '2_of_spades.png'
+//     imgArray[40] = new Image()
+//     imgArray[40].src = '2_of_spades.png'
 
-    imgArray[41] = new Image()
-    imgArray[41].src = '3_of_spades.png'
+//     imgArray[41] = new Image()
+//     imgArray[41].src = '3_of_spades.png'
 
-    imgArray[42] = new Image()
-    imgArray[42].src = '4_of_spades.png'
+//     imgArray[42] = new Image()
+//     imgArray[42].src = '4_of_spades.png'
 
-    imgArray[43] = new Image()
-    imgArray[43].src = '5_of_spades.png'
+//     imgArray[43] = new Image()
+//     imgArray[43].src = '5_of_spades.png'
 
-    imgArray[44] = new Image()
-    imgArray[44].src = '6_of_spades.png'
+//     imgArray[44] = new Image()
+//     imgArray[44].src = '6_of_spades.png'
 
-    imgArray[45] = new Image()
-    imgArray[45].src = '7_of_spades.png'
+//     imgArray[45] = new Image()
+//     imgArray[45].src = '7_of_spades.png'
 
-    imgArray[46] = new Image()
-    imgArray[46].src = '8_of_spades.png'
+//     imgArray[46] = new Image()
+//     imgArray[46].src = '8_of_spades.png'
 
-    imgArray[47] = new Image()
-    imgArray[47].src = '9_of_spades.png'
+//     imgArray[47] = new Image()
+//     imgArray[47].src = '9_of_spades.png'
 
-    imgArray[48] = new Image()
-    imgArray[48].src = '10_of_spades2.png'
+//     imgArray[48] = new Image()
+//     imgArray[48].src = '10_of_spades2.png'
 
-    imgArray[49] = new Image()
-    imgArray[49].src = 'jack_of_spades2.png'
+//     imgArray[49] = new Image()
+//     imgArray[49].src = 'jack_of_spades2.png'
 
-    imgArray[50] = new Image()
-    imgArray[50].src = 'queen_of_spades2.png'
+//     imgArray[50] = new Image()
+//     imgArray[50].src = 'queen_of_spades2.png'
 
-    imgArray[51] = new Image()
-    imgArray[51].src = '/card_faces/king_of_spades2.png'
-}
+//     imgArray[51] = new Image()
+//     imgArray[51].src = '/card_faces/king_of_spades2.png'
+// }
 
-function testImagePrint(){
-    insertImages()
-    for (let h = 0; h < imgArray.length; h++){
-        document.getElementById(body).innerHTML = imgArray[h]
-    }
-}
+// function testImagePrint(){
+//     insertImages()
+//     for (let h = 0; h < imgArray.length; h++){
+//         document.getElementById(body).innerHTML = imgArray[h]
+//     }
+// }
 
-*/
+//
