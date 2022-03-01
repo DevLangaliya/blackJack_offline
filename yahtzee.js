@@ -5,6 +5,6 @@ function show_dice(){
     console.log(dice[roll], dice[roll][roll])
 }
 
-function make_table(){
-    
+function gohome(){
+    window.location.href = "http://127.0.0.1:5500/homepage.html"
 }
