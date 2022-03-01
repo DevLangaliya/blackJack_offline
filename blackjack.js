@@ -1,7 +1,5 @@
 const suit = [" of Spades", " of Hearts", " of Clubs", " of Diamonds"]
 const faces = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
-let imgArray = new Array()
-
 let deck = [], model = []
 let playerArray = []
 let splitter
@@ -23,6 +21,10 @@ let tempScore1, tempScore2
 let splitted = 2
 let splitGroups
 let leaveThing = false
+
+function gohome(){
+    window.location.href = "http://127.0.0.1:5500/homepage.html"
+}
 
 function StartGame() {
     document.getElementById("UI").style.display = "block"
@@ -283,6 +285,7 @@ function placeBet(){
         document.getElementById("enterBet").style.display = "none"
         document.getElementById("betAlerts").innerHTML = ""
         canDeal = true
+        global.
         dealCards()
     } else if (bet > startingMoney){
         document.getElementById("betAlerts").innerHTML = "You do not possess enough funds to bet this much money."

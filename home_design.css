@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(6, 5, 7);
+}
+
+#bj {
+    background-color: #1468a8;
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.6em;
+    margin-left: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bj:hover {
+    background-color: #0a3b5c;
+}
+#wheely{
+    background-color: #1468a8;
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.25em;
+    margin-left: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wheely:hover{
+    background-color: #0a3b5c;
+}
+#yah{
+    background-color: #1468a8;
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.6em;
+    margin-left: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#yah:hover {
+    background-color: #0a3b5c;
+}
+.buttons{
+    position: fixed;
+    border: 5px solid #FFFF00;
+    text-align: center;
+    padding: 5px;
+    width: 98%;
+    height: 95.5%
+}

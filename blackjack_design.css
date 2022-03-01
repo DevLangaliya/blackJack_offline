@@ -51,6 +51,18 @@ body{
     color:brown;
     font-weight:bold;
 }
+#gohome{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    font-weight:normal;
+}
+#gohome:hover{
+    background-color:white;
+    color:brown;
+    font-weight:bold;
+}
 #better{
     border: none;
     background-color: brown;
