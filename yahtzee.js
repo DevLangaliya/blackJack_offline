@@ -1,13 +1,13 @@
-let dice = [[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6]]
+const dice = [1, 2, 3, 4, 5, 6];
 
 function show_dice(){
-    try{
-        roll = Math.floor(Math.random()*6)
-        console.log(dice[roll], dice[roll][roll])
-        document.getElementById("ace").innerHTML = roll
-    }catch(error){
-        document.getElementById("ace").innerHTML = "und"
+    let dice_arr = []
+    for(let i = 0; i < 5; i++){
+        dice_arr.push(dice[Math.floor(Math.random()*dice.length)])
     }
+    curent_hand = dice_arr.join(', ')
+    document.getElementById("dice").innerHTML = curent_hand
+    setInterval(show_dice(), 1000)
 }
 
 function gohome(){

@@ -271,6 +271,7 @@ function placeBet(){
     bet = document.getElementById("enterBet").value
     bankrupt()
     if (bet !== null && bet <= startingMoney && bet >= 10){
+        console.log("hey")
         document.getElementById("bet").innerHTML = "Your Bet: $" + bet
         document.getElementById("better").style.display = "none"
         document.getElementById("enterBet").style.display = "none"
@@ -285,7 +286,6 @@ function placeBet(){
         document.getElementById("enterBet").style.display = "none"
         document.getElementById("betAlerts").innerHTML = ""
         canDeal = true
-        global.
         dealCards()
     } else if (bet > startingMoney){
         document.getElementById("betAlerts").innerHTML = "You do not possess enough funds to bet this much money."

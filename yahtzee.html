@@ -9,11 +9,12 @@
     <title>Yahtzee!</title>
 </head>
 <h3>This is a two player game</h3>
+<p id="dice"></p>
 <body onload="show_dice()">
     <input type="button" onclick="gohome()" value="HOME" id="gohome">
     <p></p>    
     <div class="scoreboard" style="margin-left:700px">
-        <table border="5" style="width:33%" class="upper">
+        <table border="5" style="width:50%" class="upper">
             <thead>
                 <b>
                     <caption>UPPER SECTION</caption>
@@ -22,43 +23,48 @@
                     <th>Player 2</th>
                 </b>
             </thead>
-            <tbody>   
+            <tbody style="text-align:center">   
                 <tr>    
                     <td>Aces</td>
-                    <td id="ace"></td>
-                    <td>Score 2</td> 
+                    <td id="ace1">
+                        <input type="button" onclick="show_dice()" value="test" id="ace11">
+                    </td>
+                    <td id="ace2">Score 2</td> 
                 </tr>
                 <tr>
                     <td>Twos</td>
-                    <td>Score 1.2</td>
-                    <td>Score 2.2</td>
+                    <td id="two1">Score 1.2</td>
+                    <td id="two2">Score 2.2</td>
                 </tr>
                 <tr>
                     <td>Threes</td>
-                    <td>Score 1.2</td>
-                    <td>Score 2.2</td>
+                    <td id="three1">Score 1.2</td>
+                    <td id="three2">Score 2.2</td>
                 </tr> 
                 <tr>
                     <td>Fours</td>
-                    <td>Score 1.2</td>
-                    <td>Score 2.2</td>
+                    <td id="four1">Score 1.2</td>
+                    <td id="four2">Score 2.2</td>
                 </tr> 
                 <tr>
                     <td>Fives</td>
-                    <td>Score 1.2</td>
-                    <td>Score 2.2</td>
+                    <td id="five1">Score 1.2</td>
+                    <td id="five2">Score 2.2</td>
                 </tr> 
                 <tr>
                     <td>Sixes</td>
-                    <td>Score 1.2</td>
-                    <td>Score 2.2</td>
+                    <td id="six1">Score 1.2</td>
+                    <td id="six2">Score 2.2</td>
                 </tr>  
             </tbody>
             <tfooter>
+                <th style="background-color:black"></th>
+                <th id="tot1">score 1</th>
+                <th id="tot2">score 2</th>
             </tfooter>
         </table>
         <br>
-        <table border="5" style="width:33%" class="lower">
+        <table border="5" style="width:50%" class="lower">
             <thead>
                 <b>
                     <caption>LOWER SECTION</caption>
@@ -67,7 +73,7 @@
                     <th>Player 2</th>
                 </b>    
             </thead>
-            <tbody>   
+            <tbody style="text-align:center">   
                 <tr>    
                     <td>3 of a Kind</td>
                     <td>Score 1</td>
@@ -84,7 +90,7 @@
                     <td>Score 2.2</td>
                 </tr> 
                 <tr>
-                    <td>Amall Straight</td>
+                    <td>Small Straight</td>
                     <td>Score 1.2</td>
                     <td>Score 2.2</td>
                 </tr> 
@@ -105,9 +111,25 @@
                 </tr>  
             </tbody>
             <tfooter>
+                <th style="background-color: black"></th>
+                <th id="tot1">score 1</th>
+                <th id="tot2">score 2</th>
             </tfooter>
         </table>
+        <br>
+        <table class="all_scores" border="5" style="width:50%">
+            <caption>TOTAL SCORES</caption>
+            <thead>
+                <th id="all1">Total Player 1 Score</th>
+                <th id="all2">Total Player 2 Score</th>
+            </thead>
+            <tbody style="text-align:center">
+                <tr>
+                    <td>value1</td>
+                    <td>value2</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-
 </body>
 </html>
