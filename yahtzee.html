@@ -11,8 +11,9 @@
 <h3>This is a two player game</h3>
 <body onload="show_dice()">
     <input type="button" onclick="gohome()" value="HOME" id="gohome">
+    <p></p>    
     <div class="scoreboard" style="margin-left:700px">
-        <table border="5" style="width:33%">
+        <table border="5" style="width:33%" class="upper">
             <thead>
                 <b>
                     <caption>UPPER SECTION</caption>
@@ -24,7 +25,7 @@
             <tbody>   
                 <tr>    
                     <td>Aces</td>
-                    <td>Score 1</td>
+                    <td id="ace"></td>
                     <td>Score 2</td> 
                 </tr>
                 <tr>
@@ -57,7 +58,7 @@
             </tfooter>
         </table>
         <br>
-        <table border="5" style="width:33%">
+        <table border="5" style="width:33%" class="lower">
             <thead>
                 <b>
                     <caption>LOWER SECTION</caption>
