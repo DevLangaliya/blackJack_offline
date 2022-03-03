@@ -11,8 +11,9 @@
 <h3>This is a two player game</h3>
 <p id="dice"></p>
 <body onload="show_dice()">
-    <input type="button" onclick="gohome()" value="HOME" id="gohome">
-    <p></p>    
+    
+    <input type="button" onclick="gohome()" value="HOME" id="gohome"> 
+
     <div class="scoreboard" style="margin-left:700px">
         <table border="5" style="width:50%" class="upper">
             <thead>
@@ -98,64 +99,64 @@
             <tbody style="text-align:center">   
                 <tr>    
                     <td>3 of a Kind</td>
-                    <td>
+                    <td id="row1">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td id="row2">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td> 
                 </tr>
                 <tr>
                     <td>4 of a Kind</td>
-                    <td>
+                    <td id="row11">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td id="row22">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
                 </tr>
                 <tr>
                     <td>Full House</td>
-                    <td>
+                    <td id="house1">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td id="house2">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
                 </tr> 
                 <tr>
                     <td>Small Straight</td>
-                    <td>
+                    <td id="series1">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td id="series2">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
                 </tr> 
                 <tr>
                     <td>Large Straight</td>
-                    <td>
+                    <td id="series11">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td id="series22">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
                 </tr> 
                 <tr>
                     <td>YAHTZEE</td>
-                    <td>
+                    <td id="banger1">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td id="banger2">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
                 </tr> 
                 <tr>
                     <td>Chance</td>
-                    <td>
+                    <td id="sum1">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
-                    <td>
+                    <td is="sum2">
                         <input type="button" onclick="show_dice()" value="test" id="ace11">
                     </td>
                 </tr>  
@@ -170,13 +171,13 @@
         <table class="all_scores" border="5" style="width:50%">
             <caption>TOTAL SCORES</caption>
             <thead>
-                <th id="all1">Total Player 1 Score</th>
-                <th id="all2">Total Player 2 Score</th>
+                <th>Total Player 1 Score</th>
+                <th>Total Player 2 Score</th>
             </thead>
             <tbody style="text-align:center">
                 <tr>
-                    <td>value1</td>
-                    <td>value2</td>
+                    <td id="all1">value1</td>
+                    <td id="all2">value2</td>
                 </tr>
             </tbody>
         </table>

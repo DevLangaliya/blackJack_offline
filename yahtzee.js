@@ -7,7 +7,6 @@ function show_dice(){
     }
     curent_hand = dice_arr.join(', ')
     document.getElementById("dice").innerHTML = curent_hand
-    setInterval(show_dice(), 2000)
 }
 
 function gohome(){
