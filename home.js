@@ -9,3 +9,7 @@ function play_yahtzee(){
 function play_wheel(){
     window.location.href = "http://127.0.0.1:5500/wheel_of_fortune.html"
 }
+
+function play_wordle(){
+    window.location.href = "http://127.0.0.1:5500/wordle.html"
+}
