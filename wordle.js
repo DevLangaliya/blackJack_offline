@@ -29,91 +29,58 @@ function check_word(){
         guessArray.push(document.getElementById("3").value)
         guessArray.push(document.getElementById("4").value)
         guessArray.push(document.getElementById("5").value)
-        if (guessArray.length < 5){
-            console.log("here")
-            return alert("You do not have enough letters")
-        } else {
-            console.log("bruh")
-            guess += 1
-            allow_next(guess%6)
-            console.log(guess%6)
-            return guessArray.join("")
-        }
+        
     } else if(guess%6 == 1){
         guessArray.push(document.getElementById("6").value) 
         guessArray.push(document.getElementById("7").value)
         guessArray.push(document.getElementById("8").value)
         guessArray.push(document.getElementById("9").value)
         guessArray.push(document.getElementById("10").value)
-        if (guessArray.length < 5){
-            console.log("here")
-            return alert("You do not have enough letters")
-        } else {
-            console.log("bruh")
-            guess += 1
-            allow_next(guess%6)
-            console.log(guess%6)
-            return guessArray.join("")
-        }
+        
     } else if(guess%6 == 2){
         guessArray.push(document.getElementById("11").value) 
         guessArray.push(document.getElementById("12").value)
         guessArray.push(document.getElementById("13").value)
         guessArray.push(document.getElementById("14").value)
         guessArray.push(document.getElementById("15").value)
-        if (guessArray.length < 5){
-            console.log("here")
-            return alert("You do not have enough letters")
-        } else {
-            console.log("bruh")
-            guess += 1
-            allow_next(guess%6)
-            console.log(guess%6)
-            return guessArray.join("")
-        }
+        
     } else if(guess%6 == 3){
         guessArray.push(document.getElementById("16").value) 
         guessArray.push(document.getElementById("17").value)
         guessArray.push(document.getElementById("18").value)
         guessArray.push(document.getElementById("19").value)
         guessArray.push(document.getElementById("20").value)
-        if (guessArray.length < 5){
-            console.log("here")
-            return alert("You do not have enough letters")
-        } else {
-            console.log("bruh")
-            guess += 1
-            allow_next(guess%6)
-            console.log(guess%6)
-            return guessArray.join("")
-        }
+        
     } else if(guess%6 == 4){
         guessArray.push(document.getElementById("21").value) 
         guessArray.push(document.getElementById("22").value)
         guessArray.push(document.getElementById("23").value)
         guessArray.push(document.getElementById("24").value)
         guessArray.push(document.getElementById("25").value)
-        if (guessArray.length < 5){
-            console.log("here")
-            return alert("You do not have enough letters")
-        } else {
-            console.log("bruh")
-            guess += 1
-            allow_next(guess%6)
-            console.log(guess%6)
-            return guessArray.join("")
-        }
+        
     } else if(guess%6 == 5){
         guessArray.push(document.getElementById("26").value) 
         guessArray.push(document.getElementById("27").value)
         guessArray.push(document.getElementById("28").value)
         guessArray.push(document.getElementById("29").value)
         guessArray.push(document.getElementById("30").value)
+        
+    }
+    console.log(guessArray)
+    if (guessArray.includes(" ")){
+        for (let i = 0; i < guessArray.length; i++){
+            if (guessArray[i] = " "){
+                guessArray.splice(i, 1)
+            }
+            console.log(guessArray)
+        }
+    } else {
         if (guessArray.length < 5){
             console.log("here")
-            return alert("You do not have enough letters")
+            alert("You do not have enough letters")
+            return 
         } else {
-            console.log("bruh")
+            console.log("bruh", guessArray.length)
             guess += 1
             allow_next(guess%6)
             console.log(guess%6)
@@ -141,6 +108,10 @@ function allow_next(turn) {
     } else if (turn === 0){
         alert("done")
     }
+}
+
+function clear_guesses(){
+    
 }
 
 
