@@ -6,18 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="home_design.css">
-    <script src="home.js"></script>
+    <script>
+        function play_blackjack(){
+            window.location.href = "http://127.0.0.1:5501/blackjack.html"
+        }
+
+        function play_yahtzee(){
+            window.location.href = "http://127.0.0.1:5501/yahtzee.html"
+        }
+
+        function play_wheel(){
+            window.location.href = "http://127.0.0.1:5501/wheel_of_fortune.html"
+        }
+
+        function play_wordle(){
+            window.location.href = "http://127.0.0.1:5501/wordle.html"
+        }
+        function play_picguess(){
+            window.location.href = "http://127.0.0.1:5501/picture_guess.html"
+        }
+    </script>
 </head>
 <body>
     
     <div class="buttons">
 
         <br>
+        <br>
 
         <input id="bj" onclick="play_blackjack()" type="button" value="Play 'Blackjack'">
         
-        <p>_</p>
-        <p>_</p>
         <p>_</p>
         <p>_</p>
 
@@ -25,17 +43,18 @@
 
         <p>_</p>
         <p>_</p>
-        <p>_</p>
-        <p>_</p>
 
         <input id="wheely" onclick="play_wheel()" type="button" value="Play 'Wheel of Fortune'">
 
         <p>_</p>
         <p>_</p>
-        <p>_</p>
-        <p>_</p>
         
         <input type="button" onclick="play_wordle()" id="wordle" value="Play 'Wordle'">
+
+        <p>_</p>
+        <p>_</p>
+
+        <input type="button" onclick="play_picguess()" id="picguess" value="Play 'PicGuess'">
 
     </div>
 

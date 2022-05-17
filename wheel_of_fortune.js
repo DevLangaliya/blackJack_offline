@@ -49,21 +49,17 @@ markets = ["target", "walmart", "kroger", "costco", "aldi's", "seven-eleven", "m
 
 //i do not understand this function but i keep it like this becuase otherwise my wheel won't work
 function shuffle(array) {
-    var currentIndex = array.length,
-        randomIndex;
+    var currentIndex = array.length, randomIndex;
     while (0 !== currentIndex) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex--;
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex],
-            array[currentIndex],
-        ];
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex],array[currentIndex],];
     }
     return array;
 }
 
 function gohome(){
-    window.location.href = "http://127.0.0.1:5500/homepage.html"
+    window.location.href = "http://127.0.0.1:5501/homepage.html"
 }
 
 //shows textboxes for the players to input their names

@@ -22,7 +22,7 @@ function check_card(){
 
 
 function gohome(){
-    window.location.href = "http://127.0.0.1:5500/homepage.html"
+    window.location.href = "http://127.0.0.1:5501/homepage.html"
 }
 
 function check_roll(){
